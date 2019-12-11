@@ -2,7 +2,7 @@ var 모듈 = {};
 
 모듈.data = [];
 모듈.add = function(i){
-	모듈.data[모듈.data.length] = i;
+	모듈.data.push(i);
 }
 모듈.read = function(){
 	for(var i = 0; i < 모듈.data.length; i++){
