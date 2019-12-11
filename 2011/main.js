@@ -1,8 +1,17 @@
-var 모듈 = require('./mod2');
+var 모듈 = require('./mod3');
 console.log(모듈);
 
-모듈.a = 5;
-모듈.e(4);
+// CRUD  >> C
+모듈.add("안녕");
+모듈.add("세민");
+모듈.add("배고프니?");
+모듈.add("곧 점심 시간?");
 
-var result = 모듈.c();
-console.log(result);
+// CRUD  >> R 
+모듈.read();
+
+// CRUD  >> U
+모듈.up(1, "종훈");
+
+// CRUD  >> D
+모듈.del(1);
